@@ -83,6 +83,8 @@ def mainexecute(query):
         onWikipedia(Query)
     elif "weather" in Query:
         getWeather(Query)
+    elif "facebook" in Query:
+        getFacebook(Query)
 
 
     #OS related Tasks
